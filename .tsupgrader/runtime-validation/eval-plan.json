@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "projectType": "webapp",
+  "assertions": [
+    {
+      "name": "TypeScript typecheck",
+      "type": "command",
+      "command": "npm",
+      "args": ["run", "typecheck"],
+      "expected": "exit code 0"
+    }
+  ]
+}

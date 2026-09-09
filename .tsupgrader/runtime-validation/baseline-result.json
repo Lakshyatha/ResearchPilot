@@ -1,0 +1,26 @@
+{
+  "planHash": "dbd14f25c86376043ed3e6bd1933da02fc490c0bdc05b02a735540c8f64602d9",
+  "phase": "baseline",
+  "recordedAtUtc": "2026-09-09T07:45:10.4515590Z",
+  "retryCount": 0,
+  "resetBaseline": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 0,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "TypeScript typecheck",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": false,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 2,
+        "outputSample": "\r\n\u003E vite-react-typescript-starter@0.0.0 typecheck\r\n\u003E tsc --noEmit -p tsconfig.app.json\r\n\r\nsrc/components/ProtectedRoute.tsx(1,26): error TS2307: Cannot find module \u0027react-router-dom\u0027 or its corresponding type declarations.\r\nsrc/contexts/AuthContext.tsx(57,73): error TS7006: Parameter \u0027event\u0027 implicitly has an \u0027any\u0027 type.\r\nsrc/contexts/AuthContext.tsx(57,80): error TS7006: Parameter \u0027session\u0027 implicitly has an \u0027any\u0027 type.\r\nsrc/lib/supabase.ts(51,22): error TS18047: \u0027orderBy\u0027 is possibly \u0027null\u0027.\r\nsrc/lib/supabase.ts(52,22): error TS18047: \u0027orderBy\u0027 is possibly \u0027null\u0027.\r\nsrc/lib/supabase.ts(55,16): error TS18047: \u0027orderBy\u0027 is possibly \u0027null\u0027.\r\nsrc/lib/supabase.ts(138,23): error TS6133: \u0027callback\u0027 is declared but its value is never read.\r\nsrc/pages/EvolutionTimelinePage.tsx(117,53): error TS7006: Parameter \u0027p\u0027 implicitly has an \u0027any\u0027 type.\r\nsrc/pages/KnowledgeGraphPage.tsx(129,45): error TS7006: Parameter \u0027p\u0027 implicitly has an \u0027any\u0027 type.\r\nsrc/pages/KnowledgeGraphPage.tsx(143,45): error TS7006: Parameter \u0027p\u0027 implicitly has an \u0027any\u0027 type.\r\nsrc/pages/ResearchGapsPage.tsx(24,19): error TS6133: \u0027setLoading\u0027 is declared but its value is never read.\r\nsrc/pages/WorkspacesPage.tsx(60,25): error TS7006: Parameter \u0027workspace\u0027 implicitly has an \u0027any\u0027 type.\r\n",
+        "durationMs": 3221
+      }
+    ]
+  }
+}
